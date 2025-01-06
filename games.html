@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamebar Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+<section class="sub-header">
+  <nav>
+    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="games.html">GAMES</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+  </nav>
+
+    <h1>Our Games</h1>
+  
+</section>
+
+<!---------our Games -->
+
+<section class="overview">
+  <h1> Games overview</h1>
+  <p>Making it easier to access games all over the world. <br>Explore exciting games with incredible stories and adventures.</p>
+  
+  <div class="row">
+    <div class="overview-col">
+      <img src="images/ready image.jpg">
+      <div class="layer">
+        <h3>Ready or Not: follows the operations of a police SWAT team in the fictional American city<br> of Los Sueños in the midst of a violent crime wave</h3>
+        
+      </div>
+    </div>
+    <div class="overview-col">
+      <img src="images/SPIDERMAN.jpg">
+      <div class="layer">
+        <h3>Marvel's Spider-Man 2 is a 2023 action-adventure game developed by Insomniac Games <br> As with the first game Peter Parker and Miles Morales are the two main characters</h3>
+      </div>
+    </div>
+    <div class="overview-col">
+      <img src="images/ragnarok.jpg">
+      <div class="layer">
+        <h3>God of War Ragnarök  by Santa Monica Studio. <br> Join Kratos and Atreus to explore the mythic Nine Realms in search of answers and allies.</h3>
+      </div>
+    </div>
+  </div>
+    
+  </section>
+
+<!-----facilities-->
+
+
+<section class="scheme">
+  <h1> Special Editions</h1>
+  <p>Wide range of special selected games to meet your demands</p>
+
+  <div class="row"> 
+    <div class="scheme-col">
+      <img src="images/far cry 6 .png">
+<h3>Far Cry 6  </h3>
+<p>is a 2021 first-person shooter game developed by Ubisoft Toronto</p>
+
+    </div>
+    <div class="scheme-col">
+      <img src="images/Forza-Horizon-4-.jpg">
+<h3>Forza Horizon 4 .</h3>
+<p>is a 2018 racing video game<br> developed by Playground Games and published by Microsoft Studios</p>
+
+    </div>
+    <div class="scheme-col">
+      <img src="images/watch-dogs-2-.webp">
+<h3> Watch Dogs 2 .</h3>
+<p>follows the story of hacker Marcus Holloway,<br> who is punished for a crime he did not commit</p>
+
+    </div>
+  </div>
+
+
+</section>
+
+<!--------about us footer-->
+
+
+<section class="about-us" id="about">
+  <div class="about-row">
+      <div class="about-col">
+          <h1>About Gamebar</h1>
+          <p>
+              Welcome to Gamebar – the ultimate destination for gamers around the world! 
+              We believe in creating a vibrant community where gamers of all levels can connect, 
+              discover new games, and stay up-to-date with the latest industry trends. 
+              Our platform is built to provide reviews, insights, and epic game recommendations. 
+          </p>
+          <p>
+              Whether you're into adventure, racing, or first-person shooters, 
+              Gamebar has something for everyone. Join us and be part of an ever-growing 
+              network of passionate gamers.
+          </p>
+
+          <div class="icons" >
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+          </div>
+          <p>made with <i class="fa fa-heart-o" ></i> by GIBSON Adjei</p>
+
+          <a href="games.html" class="hero-btn">Explore Our Games</a>
+      </div>
+      <div class="about-col">
+        <img src="images/ready image.jpg">
+          
+      </div>
+  </div>
+</section>
+
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+  </body>
+</html>
